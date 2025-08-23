@@ -51,7 +51,7 @@ This project implements and compares various deep learning models for fruit clas
 
 <div align="center">
 
-[![Custom CNN Notebook]([https://img.shields.io/badge/Kaggle-Custom_CNN_Notebook-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white)](https://www.kaggle.com/code/asfarhossainsitab/customcnn-cse366-group-c/edit](https://www.kaggle.com/code/asfarhossainsitab/notebook-1-customcnn-cse366-group-c))
+[![Custom CNN Notebook](https://www.kaggle.com/code/asfarhossainsitab/notebook-1-customcnn-cse366-group-c)
 [![EfficientNet & DenseNet Notebook](https://img.shields.io/badge/Kaggle-EfficientNet_&_DenseNet-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white)](https://www.kaggle.com/code/asfarhossainsitab/notebook-2-eficientnet-80-and-densenet-121)
 [![ConvNeXt & VGG16 Notebook](https://img.shields.io/badge/Kaggle-ConvNeXt_&_VGG16-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white)](https://www.kaggle.com/code/asfarhossainsitab/notebook-3-convnext-and-vgg-16-model)
 [![Vision Transformer Notebook](https://img.shields.io/badge/Kaggle-Vision_Transformer-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white)](https://www.kaggle.com/code/asfarhossainsitab/notebook-4-vision-transformer)
@@ -64,7 +64,7 @@ This project implements and compares various deep learning models for fruit clas
 - **EfficientNet-B0 & DenseNet-121**: [Kaggle Notebook](https://www.kaggle.com/code/asfarhossainsitab/notebook-2-eficientnet-80-and-densenet-121)
 - **ConvNeXt-Tiny & VGG16**: [Kaggle Notebook](https://www.kaggle.com/code/asfarhossainsitab/notebook-3-convnext-and-vgg-16-model)
 - **Vision Transformer**: [Kaggle Notebook](https://www.kaggle.com/code/asfarhossainsitab/notebook-4-vision-transformer)
-- **XAI_Analysis**:  [Kaggle Notebook](https://www.kaggle.com/code/asfarhossainsitab/notebook-5-xai-analysis-1)
+- **XAI_Analysis**: [Kaggle Notebook](https://www.kaggle.com/code/asfarhossainsitab/notebook-5-xai-analysis-1)
 
 ## 🛠️ Installation
 
@@ -281,4 +281,5 @@ For questions and support:
 ---
 
 **Note**: This project is for educational and research purposes. Always ensure you have the right to use any datasets and comply with relevant licenses.
+
 
