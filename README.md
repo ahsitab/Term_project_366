@@ -1,4 +1,9 @@
-# 🍎🍌 Fruit Classification Project - CSE366 Term Project
+Perfect 👍
+Here’s your **full README** with the **updated Kaggle Notebooks section** (all links fixed so they open directly, no `/edit/run/...` errors).
+
+---
+
+# 🍎🍌 Fruit Classification Project – CSE366 Term Project
 
 <div align="center">
 
@@ -8,266 +13,268 @@
 ![CUDA](https://img.shields.io/badge/CUDA-11.7%2B-green?logo=nvidia)
 ![License](https://img.shields.io/badge/License-MIT-yellow)
 
-**State-of-the-Art Deep Learning for Fruit Classification with Vision Transformers, CNNs, and XAI**
+**State-of-the-Art Deep Learning for Fruit Classification with Vision Transformers, CNNs & XAI**
 
-[![Open in Kaggle](https://img.shields.io/badge/Kaggle-Notebooks-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white)](#-kaggle-notebooks)
-[![Open in Streamlit](https://img.shields.io/badge/Streamlit-Live_Demo-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://your-streamlit-app-url.com)
+[![Open in Kaggle](https://img.shields.io/badge/Kaggle-Notebooks-20BEFF?style=for-the-badge\&logo=kaggle\&logoColor=white)](#-kaggle-notebooks)
+[![Open in Streamlit](https://img.shields.io/badge/Streamlit-Live_Demo-FF4B4B?style=for-the-badge\&logo=streamlit\&logoColor=white)](https://your-streamlit-app-url.com)
 
-</div>
+</div>  
+
+---
 
 ## 🌟 Introduction
 
-Welcome to the ultimate fruit classification project! This comprehensive deep learning solution leverages cutting-edge models including **Vision Transformers**, **CNNs**, and custom architectures to accurately classify fruits into 5 categories: Apple, Banana, Grape, Mango, and Orange. Perfect for researchers, students, and AI enthusiasts!
+Welcome to the **Fruit Classification Project**! 🍇🥭
+This project explores **modern deep learning techniques** to classify fruits into 5 categories: **Apple, Banana, Grape, Mango, Orange**. We employ **Vision Transformers (ViT)**, **CNNs**, and **XAI methods** for accurate, explainable, and deployable solutions.
+
+Perfect for **students, researchers, and AI enthusiasts** who want a complete pipeline — from **model training to deployment**.
+
+---
 
 ## ✨ Key Features
 
-| Feature | Description | Benefit |
-|---------|-------------|---------|
-| **🤖 Multiple Architectures** | ViT, DeiT, VGG16, ConvNeXt, EfficientNet, DenseNet, Custom CNNs | Choose the best model for your needs |
-| **🎯 High Accuracy** | Up to 95% accuracy on test data | Reliable predictions for real-world applications |
-| **🔍 XAI Integration** | Grad-CAM heatmaps and saliency visualizations | Understand model decisions |
-| **🚀 GPU Optimized** | Full CUDA support with mixed precision training | Faster training and inference |
-| **🌐 Web Deployment** | Interactive Streamlit app with beautiful UI | Easy to use without coding |
-| **📊 Comprehensive Analysis** | Detailed model comparisons and performance metrics | Make informed decisions |
+| Feature                       | Description                                                     | Benefit                             |
+| ----------------------------- | --------------------------------------------------------------- | ----------------------------------- |
+| **🤖 Multiple Architectures** | ViT, DeiT, VGG16, ConvNeXt, EfficientNet, DenseNet, Custom CNNs | Compare classic & modern models     |
+| **🎯 High Accuracy**          | Up to **95%** test accuracy                                     | Reliable for real-world use         |
+| **🔍 Explainable AI**         | Grad-CAM, saliency maps, attention visualization                | Understand *why* the model predicts |
+| **🚀 GPU Optimized**          | CUDA + Mixed Precision training                                 | Fast & efficient                    |
+| **🌐 Web Deployment**         | Interactive **Streamlit** app                                   | No coding needed                    |
+| **📊 Model Benchmarking**     | Training time, params, F1-scores                                | Informed model choice               |
 
-## 🏆 Model Performance Showcase
+---
+
+## 🏆 Model Performance
 
 <div align="center">
 
-| Model | Accuracy | F1-Score | Parameters | Training Time |
-|-------|----------|----------|------------|---------------|
-| **Vision Transformer (Base)** | 🥇 **95.2%** | 🥇 **0.94** | 86M | 45 min |
-| **DenseNet121** | 🥈 **94.1%** | 🥈 **0.93** | 8.1M | 35 min |
-| **EfficientNet-B0** | 🥉 **93.8%** | 🥉 **0.92** | 5.3M | 25 min |
-| **VGG16** | **92.7%** | **0.91** | 138M | 50 min |
-| **Custom CNN** | **93.7%** | **0.93** | 2.1M | 20 min |
+| Model                         | Accuracy     | F1-Score    | Parameters | Training Time |
+| ----------------------------- | ------------ | ----------- | ---------- | ------------- |
+| **Vision Transformer (Base)** | 🥇 **95.2%** | 🥇 **0.94** | 86M        | 45 min        |
+| **DenseNet121**               | 🥈 **94.1%** | 🥈 **0.93** | 8.1M       | 35 min        |
+| **EfficientNet-B0**           | 🥉 **93.8%** | 🥉 **0.92** | 5.3M       | 25 min        |
+| **VGG16**                     | **92.7%**    | **0.91**    | 138M       | 50 min        |
+| **Custom CNN**                | **93.7%**    | **0.93**    | 2.1M       | 20 min        |
 
-</div>
+</div>  
+
+---
 
 ## 🚀 Quick Start
 
-### Installation - It's a Breeze! 🌈
+### Installation
 
 ```bash
-# Clone the repository
+# Clone this repo
 git clone https://github.com/your-username/fruit-classification-project.git
 cd fruit-classification-project
 
-# Install dependencies (creates a virtual environment automatically!)
+# Install dependencies
 pip install -r requirements.txt
 
-# For GPU acceleration (highly recommended!)
+# For CUDA acceleration
 pip install torch==2.0.0+cu117 torchvision==0.15.0+cu117 -f https://download.pytorch.org/whl/torch_stable.html
 ```
 
-### Demo in 60 Seconds! ⏰
+### Run Demo
 
 ```bash
-# Try our pre-trained model on your fruit image
-python predict.py --image your_fruit_image.jpg
+# Predict fruit from an image
+python predict.py --image your_fruit_image.jpg  
 
-# Or launch the interactive web app
+# Launch Streamlit app
 streamlit run app.py
 ```
 
-## 📁 Project Structure Made Simple
+---
+
+## 📁 Project Structure
 
 ```
 fruit-classification-project/
-├── 🧠 Models/                 # All model implementations and weights
-├── 📓 Notebooks/             # Jupyter notebooks for each model
-├── 🚀 train_all_models.py    # One script to train them all!
-├── 🔮 predict.py            # Make predictions on new images
-├── 🌐 app.py               # Beautiful Streamlit web app
-└── 📊 data_utils.py        # Data loading utilities
+├── 🧠 Models/               # Pre-trained models + weights
+├── 📓 Notebooks/            # Kaggle notebooks
+├── 🚀 train_all_models.py   # Train models easily
+├── 🔮 predict.py            # Inference script
+├── 🌐 app.py                # Streamlit web app
+└── 📊 data_utils.py         # Data handling utilities
 ```
+
+---
 
 ## 🎯 Kaggle Notebooks - Learn by Doing!
 
 <div align="center">
 
-| Notebook | Description | Link |
-|----------|-------------|------|
-| **Custom CNN** | Build from scratch | [![Open](https://img.shields.io/badge/Open-Notebook-blue)]((https://www.kaggle.com/code/asfarhossainsitab/notebook-1-customcnn-cse366-group-c/edit/run/257729156)) |
-| **EfficientNet & DenseNet** | Modern CNNs | [![Open](https://img.shields.io/badge/Open-Notebook-blue)](https://www.kaggle.com/code/asfarhossainsitab/notebook-2-eficientnet-80-and-densenet-121/edit/run/255927767) |
-| **ConvNeXt & VGG16** | Classic vs New | [![Open](https://img.shields.io/badge/Open-Notebook-blue)](https://www.kaggle.com/code/asfarhossainsitab/notebook-3-convnext-and-vgg-16-model/edit/run/256115062) |
-| **Vision Transformer** | State-of-the-Art | [![Open](https://img.shields.io/badge/Open-Notebook-blue)](https://www.kaggle.com/code/asfarhossainsitab/notebook-4-vision-transformer/edit/run/257364110) |
-| **XAI Analysis** | Explainable AI | [![Open](https://img.shields.io/badge/Open-Notebook-blue)]([https://kaggle.com](https://www.kaggle.com/code/asfarhossainsitab/notebook-5-xai-analysis-final/edit)) |
+| Notebook                    | Description        | Link                                                                                                                                                 |
+| --------------------------- | ------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Custom CNN**              | Build from scratch | [![Open](https://img.shields.io/badge/Open-Notebook-blue)](https://www.kaggle.com/code/asfarhossainsitab/notebook-1-customcnn-cse366-group-c)        |
+| **EfficientNet & DenseNet** | Modern CNNs        | [![Open](https://img.shields.io/badge/Open-Notebook-blue)](https://www.kaggle.com/code/asfarhossainsitab/notebook-2-eficientnet-80-and-densenet-121) |
+| **ConvNeXt & VGG16**        | Classic vs New     | [![Open](https://img.shields.io/badge/Open-Notebook-blue)](https://www.kaggle.com/code/asfarhossainsitab/notebook-3-convnext-and-vgg-16-model)       |
+| **Vision Transformer**      | State-of-the-Art   | [![Open](https://img.shields.io/badge/Open-Notebook-blue)](https://www.kaggle.com/code/asfarhossainsitab/notebook-4-vision-transformer)              |
+| **XAI Analysis**            | Explainable AI     | [![Open](https://img.shields.io/badge/Open-Notebook-blue)](https://www.kaggle.com/code/asfarhossainsitab/notebook-5-xai-analysis-final)              |
 
-</div>
+</div>  
 
-## 🏋️ Training Made Easy
+---
 
-### Train a Single Model
+## 🏋️ Training
+
+### Train One Model
 
 ```bash
 python train_all_models.py \
-  --model vit_base_patch16_224 \  # Try different models!
+  --model vit_base_patch16_224 \
   --data-dir ./Fruits_Original \
   --epochs 20 \
   --batch-size 32 \
-  --learning-rate 0.0001 \
+  --learning-rate 1e-4 \
   --output-dir results
 ```
 
-### Compare Multiple Models
+### Train All Top Models
 
 ```bash
-# Train all top models with one command!
 ./scripts/train_all.sh
 ```
 
-## 🔮 Prediction - See the Magic!
+---
+
+## 🔮 Prediction Example
 
 ```python
-from predict import predict_image
+from predict import predict_image  
 
-# It's this simple!
 result = predict_image(
     model_type="vit_base_patch16_224",
     image_path="your_fruit.jpg",
     model_path="Models/ViT-Base-16_variety_classification_best.pth"
-)
+)  
 
-print(f"Prediction: {result['class']} with {result['confidence']:.2f}% confidence!")
+print(f"Prediction: {result['class']} with {result['confidence']:.2f}% confidence!")  
 ```
 
-## 🌐 Web App - No Code Needed!
+---
 
-Our beautiful Streamlit app lets anyone use our models:
+## 🌐 Streamlit Web App
 
 ```bash
 streamlit run app.py
 ```
 
-**App Features:**
-- 🖼️ Drag-and-drop image upload
-- 🤖 Multiple model selection
-- 🔍 Real-time predictions with confidence scores
-- 🌋 XAI heatmap visualizations
-- 📊 Performance comparison charts
-- 📱 Mobile-responsive design
+**Features:**
 
-## 🎨 XAI - See What the Model Sees!
+* Drag & drop image upload
+* Choose different models
+* Real-time prediction with confidence
+* Heatmap visualization (XAI)
+* Mobile-friendly UI
+
+---
+
+## 🎨 Explainable AI (XAI)
 
 <div align="center">
-  
+
 ![XAI Heatmap](https://via.placeholder.com/600x200/FF6B6B/FFFFFF?text=XAI+Heatmap+Visualization+Example)
 
-</div>
+</div>  
 
-Understand model decisions with our integrated Explainable AI features:
-- **Grad-CAM heatmaps**
-- **Saliency maps**
-- **Attention visualization** for Vision Transformers
-- **Class activation maps**
+Includes:
 
-## 📊 Dataset Information
+* **Grad-CAM heatmaps**
+* **Saliency maps**
+* **Transformer attention visualization**
+* **Class Activation Maps**
 
-We use the **FruitVision** dataset with 5 classes:
+---
 
-| Fruit | Training Images | Validation Images | Test Images |
-|-------|-----------------|-------------------|-------------|
-| 🍎 Apple | 1,200 | 300 | 200 |
-| 🍌 Banana | 1,150 | 287 | 191 |
-| 🍇 Grape | 1,100 | 275 | 183 |
-| 🥭 Mango | 1,250 | 312 | 208 |
-| 🍊 Orange | 1,180 | 295 | 196 |
+## 📊 Dataset
 
-## 💡 Why Choose This Project?
+**FruitVision Dataset – 5 Classes**
 
-### For Students 👨‍🎓
-- **Complete learning pipeline** from data to deployment
-- **Well-documented code** with extensive comments
-- **Comparative analysis** of modern architectures
-- **Perfect for courses** and personal projects
+| Fruit     | Train | Val | Test |
+| --------- | ----- | --- | ---- |
+| 🍎 Apple  | 1200  | 300 | 200  |
+| 🍌 Banana | 1150  | 287 | 191  |
+| 🍇 Grape  | 1100  | 275 | 183  |
+| 🥭 Mango  | 1250  | 312 | 208  |
+| 🍊 Orange | 1180  | 295 | 196  |
 
-### For Researchers 🔬
-- **Reproducible experiments** with detailed configurations
-- **XAI integration** for model interpretability
-- **State-of-the-art implementations**
-- **Comprehensive evaluation metrics**
+---
 
-### For Developers 💻
-- **Production-ready code** with proper modularization
-- **Easy deployment** with Streamlit
-- **GPU optimization** for fast inference
-- **REST API ready** structure
+## 💡 Why This Project?
 
-## 🛠️ Technical Stack
+* **Students 👨‍🎓** → Learn full DL pipeline, model comparisons
+* **Researchers 🔬** → Reproducible experiments, XAI analysis
+* **Developers 💻** → Deploy-ready code, modular design
 
-- **Framework**: PyTorch 2.0+
-- **Vision Models**: TIMM library
-- **Web Interface**: Streamlit
-- **Visualization**: Matplotlib, Plotly
-- **XAI**: Captum, TorchCAM
-- **GPU Acceleration**: CUDA, CuDNN
+---
 
-## 🚀 Performance Tips
+## 🛠️ Tech Stack
 
-1. **Use GPU**: 10x faster training with CUDA
-2. **Mixed Precision**: 2x speedup with AMP
-3. **Data Augmentation**: Improves generalization
-4. **Model Pruning**: Reduce size without losing accuracy
-5. **Quantization**: Faster inference on edge devices
+* **Framework**: PyTorch 2.0+
+* **Models**: TIMM library (ViT, EfficientNet, etc.)
+* **Deployment**: Streamlit
+* **Visualization**: Matplotlib, Plotly
+* **XAI**: Captum, TorchCAM
+* **GPU Acceleration**: CUDA, AMP
 
-## 🤝 Contributing
+---
 
-We love contributions! Here's how you can help:
+## 🚀 Optimization Tips
 
-1. Fork the repository
-2. Create a feature branch: `git checkout -b amazing-feature`
-3. Commit your changes: `git commit -m 'Add amazing feature'`
-4. Push to the branch: `git push origin amazing-feature`
-5. Open a Pull Request
+1. Train with **GPU (CUDA)** → 10x faster
+2. Use **Mixed Precision** (AMP) → 2x speedup
+3. **Augment data** → better generalization
+4. **Pruning & Quantization** → smaller, faster models
 
-**Looking for ideas?**
-- Add new model architectures
-- Improve data augmentation
-- Enhance the web interface
-- Add REST API support
-- Create mobile app version
+---
+
+## 🤝 Contribution
+
+We welcome contributions:
+
+1. Fork repo
+2. Create branch `feature/amazing-feature`
+3. Commit & push
+4. Open PR 🎉
+
+Ideas:
+
+* Add new models
+* Better augmentations
+* REST API support
+* Mobile app deployment
+
+---
 
 ## 📜 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+Licensed under **MIT** – see [LICENSE](LICENSE).
+
+---
 
 ## 🙏 Acknowledgments
 
-- **FruitVision dataset** providers for the comprehensive dataset
-- **PyTorch team** for the excellent deep learning framework
-- **TIMM library** for Vision Transformer implementations
-- **Streamlit** for the amazing web framework
-- **Our professors** for guidance and support
-
-## 📞 Support & Community
-
-- **GitHub Issues**: Bug reports and feature requests
-- **Discussions**: Questions and ideas
-- **Email**: [your-email@university.edu]
-- **Office Hours**: [Day, Time, Location]
-
-## 🎓 Educational Value
-
-This project is perfect for:
-- Deep learning courses
-- Computer vision projects
-- Transfer learning experiments
-- Model comparison studies
-- XAI research
-- Deployment tutorials
+* **FruitVision Dataset** providers
+* **PyTorch Team**
+* **TIMM Library**
+* **Streamlit**
+* Professors & mentors for guidance
 
 ---
 
 <div align="center">
 
-**Ready to become a fruit classification expert?** 🚀
+**Ready to classify fruits like a pro? 🍎🍌🥭**
 
-[⭐ Star this repo] | [📋 Open an issue] | [🔄 Fork it]
+\[⭐ Star this repo] · \[📋 Report Issues] · \[🔄 Fork & Contribute]
 
-</div>
+</div>  
 
 ---
 
-**Note**: This project is designed for educational purposes. Always ensure proper attribution and compliance with dataset licenses when using in academic or commercial applications.
+✅ This is now the **final full README** with **working Kaggle notebook links**.
 
+Do you also want me to add a **single "Try on Kaggle" badge at the top** (that links to your **Custom CNN notebook** as the entry point)?
