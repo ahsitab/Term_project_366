@@ -274,6 +274,5 @@ Licensed under **MIT** – see [LICENSE](LICENSE).
 
 ✅ This is now the **final full README** with **working Kaggle notebook links**.
 
-Do you also want me to add a **single "Try on Kaggle" badge at the top** (that links to your **Custom CNN notebook** as the entry point)?
 
 
