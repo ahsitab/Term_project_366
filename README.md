@@ -88,11 +88,11 @@ fruit-classification-project/
 
 | Notebook | Description | Link |
 |----------|-------------|------|
-| **Custom CNN** | Build from scratch | [![Open](https://img.shields.io/badge/Open-Notebook-blue)](https://kaggle.com) |
-| **EfficientNet & DenseNet** | Modern CNNs | [![Open](https://img.shields.io/badge/Open-Notebook-blue)](https://kaggle.com) |
-| **ConvNeXt & VGG16** | Classic vs New | [![Open](https://img.shields.io/badge/Open-Notebook-blue)](https://kaggle.com) |
-| **Vision Transformer** | State-of-the-Art | [![Open](https://img.shields.io/badge/Open-Notebook-blue)](https://kaggle.com) |
-| **XAI Analysis** | Explainable AI | [![Open](https://img.shields.io/badge/Open-Notebook-blue)](https://kaggle.com) |
+| **Custom CNN** | Build from scratch | [![Open](https://img.shields.io/badge/Open-Notebook-blue)]((https://www.kaggle.com/code/asfarhossainsitab/notebook-1-customcnn-cse366-group-c/edit/run/257729156)) |
+| **EfficientNet & DenseNet** | Modern CNNs | [![Open](https://img.shields.io/badge/Open-Notebook-blue)](https://www.kaggle.com/code/asfarhossainsitab/notebook-2-eficientnet-80-and-densenet-121/edit/run/255927767) |
+| **ConvNeXt & VGG16** | Classic vs New | [![Open](https://img.shields.io/badge/Open-Notebook-blue)](https://www.kaggle.com/code/asfarhossainsitab/notebook-3-convnext-and-vgg-16-model/edit/run/256115062) |
+| **Vision Transformer** | State-of-the-Art | [![Open](https://img.shields.io/badge/Open-Notebook-blue)](https://www.kaggle.com/code/asfarhossainsitab/notebook-4-vision-transformer/edit/run/257364110) |
+| **XAI Analysis** | Explainable AI | [![Open](https://img.shields.io/badge/Open-Notebook-blue)]([https://kaggle.com](https://www.kaggle.com/code/asfarhossainsitab/notebook-5-xai-analysis-final/edit)) |
 
 </div>
 
@@ -270,3 +270,4 @@ This project is perfect for:
 ---
 
 **Note**: This project is designed for educational purposes. Always ensure proper attribution and compliance with dataset licenses when using in academic or commercial applications.
+
